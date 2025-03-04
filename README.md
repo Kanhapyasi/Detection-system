@@ -56,4 +56,4 @@ curl -X POST "http://127.0.0.1:8000/detect" \
      -F "file=@/path/to/test_image.jpg
 
 
-     <!-- Failed to upload "Screen Recording 2025-03-03 at 8.01.39 PM.mov" -->
+   
