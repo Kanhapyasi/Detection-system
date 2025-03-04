@@ -5,10 +5,10 @@
 
 ## Step 1: Setting Up the AI Backend (FastAPI)
 The AI backend is built using FastAPI, which is responsible for handling object detection requests. Here’s how implemented it:
- 1.Loaded a lightweight object detection model (YOLOv8)
- 2.Created an API endpoint (/detect) to accept image files
- 3.Processed the image using OpenCV and YOLO model
- 4.Returned JSON response with detected object labels and confidence scores
+##### 1.Loaded a lightweight object detection model (YOLOv8)
+##### 2.Created an API endpoint (/detect) to accept image files
+##### 3.Processed the image using OpenCV and YOLO model
+##### 4.Returned JSON response with detected object labels and confidence scores
 The backend was containerized using Docker, making it portable and easy to deploy.
 
 ## Step 2: Implementing Object Detection in AI Backend
