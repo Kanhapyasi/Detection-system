@@ -35,7 +35,7 @@ def upload():
             else:
                 detection_results = {"error": f"AI backend error: {response.status_code}"}
         
-        # ✅ Pass `zip` explicitly to the template
+        
         return render_template('result.html', image_url=filename, results=detection_results, zip=zip)
 
 if __name__ == '__main__':
