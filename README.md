@@ -31,11 +31,11 @@ Code Snippet in result.html:
 Step 5: Running the Application
 Containerize the FastAPI backend and Flask frontend using Docker so that the system can run on any machine without additional dependencies."
  Commands to Run the Project
-1️. Start the AI backend:
+#### 1. Start the AI backend:
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
-2️. Start the UI frontend:
+#### 2. Start the UI frontend:
 python app.py
-3️. Open a browser and go to:
+#### 3. Open a browser and go to:
 http://127.0.0.1:5000
 
 
